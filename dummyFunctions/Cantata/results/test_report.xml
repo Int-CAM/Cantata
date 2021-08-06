@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<?xml-stylesheet href="file:/C:/qa_systems/cantata/configuration/org.eclipse.osgi/604/0/.cp/xslt/HTML%20Detailed%20Report.xslt" type="text/xsl"?><testReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generated="14th May 2021 11:14" xsi:noNamespaceSchemaLocation="test_report.xsd">
+  <project name="dummyFunctions">
+    <testScriptInfo>
+      <summary status="passed">
+        <testScripts>1</testScripts>
+        <testScriptsPass>1</testScriptsPass>
+        <testScriptsFail>0</testScriptsFail>
+        <testCases>6</testCases>
+        <testCasesPassed>6</testCasesPassed>
+        <testCasesFailed>0</testCasesFailed>
+        <checksPassed>5</checksPassed>
+        <checksFailed>0</checksFailed>
+        <checksWarning>0</checksWarning>
+        <scriptDirectives>10</scriptDirectives>
+        <scriptErrors>0</scriptErrors>
+        <callSequenceFailures>0</callSequenceFailures>
+        <userComments>0</userComments>
+      </summary>
+    </testScriptInfo>
+    <filterInfo>Filters Applied: None</filterInfo>
+    <coverageInfo>
+      <coverageAchieved>
+        <entryPoint>100</entryPoint>
+        <statement>100</statement>
+        <decision>100</decision>
+        <callReturn>100</callReturn>
+        <booleanOperandEffectivenessMasking>100</booleanOperandEffectivenessMasking>
+        <booleanOperandEffectivenessUnique>100</booleanOperandEffectivenessUnique>
+      </coverageAchieved>
+    </coverageInfo>
+    <coverageTargets>
+      <entryPoint enabled="true">
+        <targetInfo>
+          <targetPercent>100</targetPercent>
+          <functionsPassed>5</functionsPassed>
+          <totalFunctions>5</totalFunctions>
+          <uninstrumentedFunctions>79</uninstrumentedFunctions>
+        </targetInfo>
+      </entryPoint>
+      <statement enabled="true">
+        <targetInfo>
+          <targetPercent>100</targetPercent>
+          <functionsPassed>5</functionsPassed>
+          <totalFunctions>5</totalFunctions>
+          <uninstrumentedFunctions>79</uninstrumentedFunctions>
+        </targetInfo>
+      </statement>
+      <decision enabled="true">
+        <targetInfo>
+          <targetPercent>100</targetPercent>
+          <functionsPassed>5</functionsPassed>
+          <totalFunctions>5</totalFunctions>
+          <uninstrumentedFunctions>79</uninstrumentedFunctions>
+        </targetInfo>
+      </decision>
+      <callReturn enabled="true">
+        <targetInfo>
+          <targetPercent>100</targetPercent>
+          <functionsPassed>5</functionsPassed>
+          <totalFunctions>5</totalFunctions>
+          <uninstrumentedFunctions>79</uninstrumentedFunctions>
+        </targetInfo>
+      </callReturn>
+      <booleanOperandEffectivenessMasking enabled="true">
+        <targetInfo>
+          <targetPercent>100</targetPercent>
+          <functionsPassed>5</functionsPassed>
+          <totalFunctions>5</totalFunctions>
+          <uninstrumentedFunctions>79</uninstrumentedFunctions>
+        </targetInfo>
+      </booleanOperandEffectivenessMasking>
+      <booleanOperandEffectivenessUnique enabled="true">
+        <targetInfo>
+          <targetPercent>100</targetPercent>
+          <functionsPassed>5</functionsPassed>
+          <totalFunctions>5</totalFunctions>
+          <uninstrumentedFunctions>79</uninstrumentedFunctions>
+        </targetInfo>
+      </booleanOperandEffectivenessUnique>
+    </coverageTargets>
+  </project>
+  <testResults>
+    <testScript>
+      <info>
+        <testScriptName>dummyFunctions</testScriptName>
+        <testScriptDescription>= Cantata Test Harness v9.1                                               =
+= (c) 2020 QA Systems GmbH                                                =
+=    Configuration: ohb-sparc-rtems-48                                    =
+=     Test Started: Time not available                                    =</testScriptDescription>
+        <testScriptFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+      </info>
+      <summary status="passed">
+        <testCases>6</testCases>
+        <testCasesPassed>6</testCasesPassed>
+        <testCasesFailed>0</testCasesFailed>
+        <checksPassed>5</checksPassed>
+        <checksFailed>0</checksFailed>
+        <checksWarning>0</checksWarning>
+        <scriptDirectives>10</scriptDirectives>
+        <scriptErrors>0</scriptErrors>
+        <scriptWarnings>1</scriptWarnings>
+        <callSequenceFailures>0</callSequenceFailures>
+        <userComments>0</userComments>
+      </summary>
+      <testScriptBody>
+        <testCase description="default case" title="1: acquireDummy">
+          <summary status="passed">
+            <checksPassed>1</checksPassed>
+            <checksFailed>0</checksFailed>
+            <checksWarning>0</checksWarning>
+            <scriptDirectives>2</scriptDirectives>
+            <scriptErrors>0</scriptErrors>
+            <scriptWarnings>0</scriptWarnings>
+            <callSequenceFailures>0</callSequenceFailures>
+            <userComments>0</userComments>
+          </summary>
+          <contents>
+            <scriptDirective>
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>174</lineNumber>
+              </position>
+              <name>Start Call Sequence Validation</name>
+              <description/>
+            </scriptDirective>
+            <check status="passed">
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>180</lineNumber>
+              </position>
+              <name>returnValue = Error_Argument</name>
+              <expectedValue>2</expectedValue>
+              <actualValue>2</actualValue>
+            </check>
+            <callSequenceScriptDir status="passed">
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>183</lineNumber>
+              </position>
+              <name>End Call Sequence Validation </name>
+              <description/>
+            </callSequenceScriptDir>
+          </contents>
+        </testCase>
+        <testCase description="default case" title="2: commandDummy">
+          <summary status="passed">
+            <checksPassed>1</checksPassed>
+            <checksFailed>0</checksFailed>
+            <checksWarning>0</checksWarning>
+            <scriptDirectives>2</scriptDirectives>
+            <scriptErrors>0</scriptErrors>
+            <scriptWarnings>0</scriptWarnings>
+            <callSequenceFailures>0</callSequenceFailures>
+            <userComments>0</userComments>
+          </summary>
+          <contents>
+            <scriptDirective>
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>208</lineNumber>
+              </position>
+              <name>Start Call Sequence Validation</name>
+              <description/>
+            </scriptDirective>
+            <check status="passed">
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>214</lineNumber>
+              </position>
+              <name>returnValue = Error_Argument</name>
+              <expectedValue>2</expectedValue>
+              <actualValue>2</actualValue>
+            </check>
+            <callSequenceScriptDir status="passed">
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>217</lineNumber>
+              </position>
+              <name>End Call Sequence Validation </name>
+              <description/>
+            </callSequenceScriptDir>
+          </contents>
+        </testCase>
+        <testCase description="default case" title="3: getDataDummy">
+          <summary status="passed">
+            <checksPassed>1</checksPassed>
+            <checksFailed>0</checksFailed>
+            <checksWarning>0</checksWarning>
+            <scriptDirectives>2</scriptDirectives>
+            <scriptErrors>0</scriptErrors>
+            <scriptWarnings>0</scriptWarnings>
+            <callSequenceFailures>0</callSequenceFailures>
+            <userComments>0</userComments>
+          </summary>
+          <contents>
+            <scriptDirective>
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>239</lineNumber>
+              </position>
+              <name>Start Call Sequence Validation</name>
+              <description/>
+            </scriptDirective>
+            <check status="passed">
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>245</lineNumber>
+              </position>
+              <name>returnValue = Error_Argument</name>
+              <expectedValue>2</expectedValue>
+              <actualValue>2</actualValue>
+            </check>
+            <callSequenceScriptDir status="passed">
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>248</lineNumber>
+              </position>
+              <name>End Call Sequence Validation </name>
+              <description/>
+            </callSequenceScriptDir>
+          </contents>
+        </testCase>
+        <testCase description="default case" title="4: getDataSizeDummy">
+          <summary status="passed">
+            <checksPassed>1</checksPassed>
+            <checksFailed>0</checksFailed>
+            <checksWarning>0</checksWarning>
+            <scriptDirectives>2</scriptDirectives>
+            <scriptErrors>0</scriptErrors>
+            <scriptWarnings>0</scriptWarnings>
+            <callSequenceFailures>0</callSequenceFailures>
+            <userComments>0</userComments>
+          </summary>
+          <contents>
+            <scriptDirective>
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>268</lineNumber>
+              </position>
+              <name>Start Call Sequence Validation</name>
+              <description/>
+            </scriptDirective>
+            <check status="passed">
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>274</lineNumber>
+              </position>
+              <name>returnValue = 0U</name>
+              <expectedValue>0</expectedValue>
+              <actualValue>0</actualValue>
+            </check>
+            <callSequenceScriptDir status="passed">
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>277</lineNumber>
+              </position>
+              <name>End Call Sequence Validation </name>
+              <description/>
+            </callSequenceScriptDir>
+          </contents>
+        </testCase>
+        <testCase description="default case" title="5: setDataDummy">
+          <summary status="passed">
+            <checksPassed>1</checksPassed>
+            <checksFailed>0</checksFailed>
+            <checksWarning>0</checksWarning>
+            <scriptDirectives>2</scriptDirectives>
+            <scriptErrors>0</scriptErrors>
+            <scriptWarnings>0</scriptWarnings>
+            <callSequenceFailures>0</callSequenceFailures>
+            <userComments>0</userComments>
+          </summary>
+          <contents>
+            <scriptDirective>
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>299</lineNumber>
+              </position>
+              <name>Start Call Sequence Validation</name>
+              <description/>
+            </scriptDirective>
+            <check status="passed">
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>305</lineNumber>
+              </position>
+              <name>returnValue = Error_Argument</name>
+              <expectedValue>2</expectedValue>
+              <actualValue>2</actualValue>
+            </check>
+            <callSequenceScriptDir status="passed">
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>308</lineNumber>
+              </position>
+              <name>End Call Sequence Validation </name>
+              <description/>
+            </callSequenceScriptDir>
+          </contents>
+        </testCase>
+        <testCase description="DO-178B/C Level B" title="COVERAGE RULE SET">
+          <summary status="passed">
+            <checksPassed>0</checksPassed>
+            <checksFailed>0</checksFailed>
+            <checksWarning>0</checksWarning>
+            <scriptDirectives>0</scriptDirectives>
+            <scriptErrors>0</scriptErrors>
+            <scriptWarnings>1</scriptWarnings>
+            <callSequenceFailures>0</callSequenceFailures>
+            <userComments>0</userComments>
+          </summary>
+          <contents>
+            <scriptWarning>
+              <position>
+                <sourceFile name="atest_dummyFunctions.c" path="atest_dummyFunctions/"/>
+                <lineNumber>78</lineNumber>
+              </position>
+              <name>Coverage Rule Set ignored in deferred analysis mode</name>
+            </scriptWarning>
+          </contents>
+        </testCase>
+      </testScriptBody>
+    </testScript>
+  </testResults>
+  <coverageReport>
+    <srcFile name="dummyFunctions.c" path="P:\Source\FlightConfig\ExecutionPlatformLayer\ApplicationSupportServices\DeviceAccessService\">
+      <fileCoverage>
+        <coverageAchieved>
+          <entryPoint>100</entryPoint>
+          <statement>100</statement>
+          <decision>100</decision>
+          <callReturn>100</callReturn>
+          <booleanOperandEffectivenessMasking>100</booleanOperandEffectivenessMasking>
+          <booleanOperandEffectivenessUnique>100</booleanOperandEffectivenessUnique>
+        </coverageAchieved>
+      </fileCoverage>
+      <coveragePerFunction>
+        <function name="acquireDummy(Ohb_Uuid_t ,Ohb_DeviceId_t ,Ohb_ValueId_t ,Ohb_DeviceCommunicationQoS_t ,WST_FSM *,uint8_t *,size_t )">
+          <coverageAchieved>
+            <entryPoint>100</entryPoint>
+            <statement>100</statement>
+            <decision>100</decision>
+            <callReturn>100</callReturn>
+            <booleanOperandEffectivenessMasking>100</booleanOperandEffectivenessMasking>
+            <booleanOperandEffectivenessUnique>100</booleanOperandEffectivenessUnique>
+          </coverageAchieved>
+        </function>
+        <function name="commandDummy(Ohb_Uuid_t ,Ohb_DeviceId_t ,Ohb_ValueId_t ,Ohb_DeviceCommunicationQoS_t ,WST_FSM *,const uint8_t *,size_t )">
+          <coverageAchieved>
+            <entryPoint>100</entryPoint>
+            <statement>100</statement>
+            <decision>100</decision>
+            <callReturn>100</callReturn>
+            <booleanOperandEffectivenessMasking>100</booleanOperandEffectivenessMasking>
+            <booleanOperandEffectivenessUnique>100</booleanOperandEffectivenessUnique>
+          </coverageAchieved>
+        </function>
+        <function name="getDataDummy(Ohb_DeviceId_t ,Ohb_ValueId_t ,void *,size_t )">
+          <coverageAchieved>
+            <entryPoint>100</entryPoint>
+            <statement>100</statement>
+            <decision>100</decision>
+            <callReturn>100</callReturn>
+            <booleanOperandEffectivenessMasking>100</booleanOperandEffectivenessMasking>
+            <booleanOperandEffectivenessUnique>100</booleanOperandEffectivenessUnique>
+          </coverageAchieved>
+        </function>
+        <function name="getDataSizeDummy(Ohb_DeviceId_t ,Ohb_ValueId_t )">
+          <coverageAchieved>
+            <entryPoint>100</entryPoint>
+            <statement>100</statement>
+            <decision>100</decision>
+            <callReturn>100</callReturn>
+            <booleanOperandEffectivenessMasking>100</booleanOperandEffectivenessMasking>
+            <booleanOperandEffectivenessUnique>100</booleanOperandEffectivenessUnique>
+          </coverageAchieved>
+        </function>
+        <function name="setDataDummy(Ohb_DeviceId_t ,Ohb_ValueId_t ,const void *,size_t )">
+          <coverageAchieved>
+            <entryPoint>100</entryPoint>
+            <statement>100</statement>
+            <decision>100</decision>
+            <callReturn>100</callReturn>
+            <booleanOperandEffectivenessMasking>100</booleanOperandEffectivenessMasking>
+            <booleanOperandEffectivenessUnique>100</booleanOperandEffectivenessUnique>
+          </coverageAchieved>
+        </function>
+      </coveragePerFunction>
+    </srcFile>
+  </coverageReport>
+</testReport>

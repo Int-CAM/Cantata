@@ -1,0 +1,16 @@
+#
+# Cantata Test-Level Options
+#
+# Any options set in this file will override the options set in the
+# project-level options file.
+#
+# WARNING: Do not alter this file manually.
+#
+#tool.use=false
+#tool.testid=8d1d7203-9909-44af-a56a-25dbfc500a8d
+#old.dir=dummyFunctions
+#new.dir=P:\Source\FlightConfig\ExecutionPlatformLayer\ApplicationSupportServices\DeviceAccessService\dummyFunctions
+#manual.mapping
+"--ci:--instr:stmt;func;call;decn;log;"
+
+#User Section

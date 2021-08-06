@@ -1,0 +1,384 @@
+Enabling automatic backtraces
+  0.000000000   0.000 I  Main                             Rufos version 9062_cea0d10
+  0.000000000   0.000 I  Main                             Command line arguments: "/opt/Rufos/bin/Rufos" "--nogui" "/opt/Sim-H2Sat/share/Svf" "/opt/Sim-H2Sat/share/Svf/Cantata.py"
+  0.000000000   0.001 I  LibraryLoader                    Loading library /opt/Sim-H2Sat/share/Svf/libSvf.so
+  0.000000000   0.008 I  Simulator                        Simulator::AddService: Adding Calibration
+  0.000000000   0.008 I  Simulator                        Simulator::AddService: Adding Time
+  0.000000000   3.152 I  Simulator                        Calling Publish() on all non-published SMP2 models
+  0.000000000   3.347 I  LibraryLoader                    Finished loading all libraries
+  0.000000000   3.347 I  AssemblyLoader                   Finished loading all *.asb files
+  0.000000000   3.347 I  Simulator                        Calling Publish() on all non-published SMP2 models
+  0.000000000   3.439 I  ConfigurationLoader              Finished loading all *.cfn files
+  0.000000000   3.439 I  ScheduleLoader                   Finished loading all *.sed files
+  0.000000000   3.439 I  Interpreter                      Detected Python interpreter from filename '/opt/Sim-H2Sat/share/Svf/Cantata.py'
+  0.000000000   3.439 I  Python                           Using Python 2.7.5 (default, Nov  6 2016, 00:28:07) 
+  0.000000000   3.439 I  Python                           [GCC 4.8.5 20150623 (Red Hat 4.8.5-11)]
+  0.000000000   3.446 I  Main                             Evaluating init script /opt/Sim-H2Sat/share/Svf/init.py
+  0.000000000   3.446 I  Python                           init.py: Adding /opt/Sim-H2Sat/share/python to sys.path
+  0.000000000   3.446 I  Simulator                        Calling Configure() on all non-configured SMP2 models
+  0.000000000   3.502 I  SMU/ProcessorEmulator            Reset : Kind = COLD, Code = 0
+  0.000000000   3.585 I  SMU/Ttrm_1/ReconfigurationModule_1/ReconfigurationModuleHalfA_1 Initialise safe guard memory TtrmPromMemory_1 complete
+  0.000000000   3.586 I  SMU/Ttrm_1/ReconfigurationModule_1/ReconfigurationModuleHalfB_1 Initialise safe guard memory TtrmPromMemory_1 complete
+  0.000000000   3.590 I  SMU/Ttrm_1/MassMemoryController_1 Memory Banks order set to:
+  0.000000000   3.590 I  SMU/Ttrm_1/MassMemoryController_1     Memory Bank 0 -> Bank 0 (0x00000000 - 0x1FFFFFFF)
+  0.000000000   3.590 I  SMU/Ttrm_1/MassMemoryController_1     Memory Bank 1 -> Bank 1 (0x20000000 - 0x3FFFFFFF)
+  0.000000000   3.590 I  SMU/Ttrm_1/MassMemoryController_1     Memory Bank 2 -> Bank 2 (0x40000000 - 0x5FFFFFFF)
+  0.000000000   3.590 I  SMU/Ttrm_1/MassMemoryController_1     Memory Bank 3 -> Bank 3 (0x60000000 - 0x7FFFFFFF)
+  0.000000000   3.601 I  SMU/Ttrm_2/ReconfigurationModule_2/ReconfigurationModuleHalfA_2 Initialise safe guard memory TtrmPromMemory_2 complete
+  0.000000000   3.603 I  SMU/Ttrm_2/ReconfigurationModule_2/ReconfigurationModuleHalfB_2 Initialise safe guard memory TtrmPromMemory_2 complete
+  0.000000000   3.606 I  SMU/Ttrm_2/MassMemoryController_2 Memory Banks order set to:
+  0.000000000   3.606 I  SMU/Ttrm_2/MassMemoryController_2     Memory Bank 0 -> Bank 0 (0x00000000 - 0x1FFFFFFF)
+  0.000000000   3.606 I  SMU/Ttrm_2/MassMemoryController_2     Memory Bank 1 -> Bank 1 (0x20000000 - 0x3FFFFFFF)
+  0.000000000   3.606 I  SMU/Ttrm_2/MassMemoryController_2     Memory Bank 2 -> Bank 2 (0x40000000 - 0x5FFFFFFF)
+  0.000000000   3.606 I  SMU/Ttrm_2/MassMemoryController_2     Memory Bank 3 -> Bank 3 (0x60000000 - 0x7FFFFFFF)
+  0.000000000   3.796 I  Simulator                        Calling Connect() on all SMP2 models
+  0.000000000   3.797 I  Calibration                      Calibration STS_TARGET_TEMP already added
+  0.000000000   3.797 I  EPS/SADM_N                       The reset-switch transitioned from OPEN to CLOSE.
+  0.000000000   3.800 W  SMU/Ttrm_1/ReconfigurationModule_1/ReconfigurationModuleHalfA_1 RaiseAlarm: PM-A UVD Alarm (11) LOW
+  0.000000000   3.800 W  SMU/Ttrm_1/ReconfigurationModule_1/ReconfigurationModuleHalfB_1 RaiseAlarm: PM-A UVD Alarm (11) LOW
+  0.000000000   3.800 W  SMU/Ttrm_2/ReconfigurationModule_2/ReconfigurationModuleHalfA_2 RaiseAlarm: PM-A UVD Alarm (11) LOW
+  0.000000000   3.800 W  SMU/Ttrm_2/ReconfigurationModule_2/ReconfigurationModuleHalfB_2 RaiseAlarm: PM-A UVD Alarm (11) LOW
+  0.000000000   3.801 I  SMU/ProcessorModule_1/SpaceWireA_1 Subscribed Leave Initialising Event to set USER_3 attributes (event id = 3)
+  0.000000000   3.801 I  SMU/ProcessorModule_1/SpaceWireB_1 Subscribed Leave Initialising Event to set USER_3 attributes (event id = 3)
+  0.000000000   3.802 W  SMU/Ttrm_1/ReconfigurationModule_1/ReconfigurationModuleHalfA_1 RaiseAlarm: PM-B UVD Alarm (15) LOW
+  0.000000000   3.802 W  SMU/Ttrm_1/ReconfigurationModule_1/ReconfigurationModuleHalfB_1 RaiseAlarm: PM-B UVD Alarm (15) LOW
+  0.000000000   3.802 W  SMU/Ttrm_2/ReconfigurationModule_2/ReconfigurationModuleHalfA_2 RaiseAlarm: PM-B UVD Alarm (15) LOW
+  0.000000000   3.802 W  SMU/Ttrm_2/ReconfigurationModule_2/ReconfigurationModuleHalfB_2 RaiseAlarm: PM-B UVD Alarm (15) LOW
+  0.000000000   3.803 I  SMU/ProcessorModule_2/SpaceWireA_2 Subscribed Leave Initialising Event to set USER_3 attributes (event id = 3)
+  0.000000000   3.803 I  SMU/ProcessorModule_2/SpaceWireB_2 Subscribed Leave Initialising Event to set USER_3 attributes (event id = 3)
+  0.000000000   3.805 W  SMU/Ttrm_1/ReconfigurationModule_1/ReconfigurationModuleHalfA_1 RaiseAlarm: WD Enable Alarm (21) HIGH
+  0.000000000   3.806 W  SMU/Ttrm_1/ReconfigurationModule_1/ReconfigurationModuleHalfB_1 RaiseAlarm: WD Enable Alarm (21) HIGH
+  0.000000000   3.807 W  SMU/Ttrm_2/ReconfigurationModule_2/ReconfigurationModuleHalfA_2 RaiseAlarm: WD Enable Alarm (21) HIGH
+  0.000000000   3.807 W  SMU/Ttrm_2/ReconfigurationModule_2/ReconfigurationModuleHalfB_2 RaiseAlarm: WD Enable Alarm (21) HIGH
+  0.000000000   3.820 I  Simulator                        Simulator entered 'Initialising' state, executing entry points ...
+  0.000000000   3.820 I  SMU/ProcessorModule_1/SpaceWireA_1 Set PM USER_3 attributes
+  0.000000000   3.820 I  SMU/ProcessorModule_1/SpaceWireB_1 Set PM USER_3 attributes
+  0.000000000   3.820 I  SMU/ProcessorModule_2/SpaceWireA_2 Set PM USER_3 attributes
+  0.000000000   3.820 I  SMU/ProcessorModule_2/SpaceWireB_2 Set PM USER_3 attributes
+  0.000000000   3.820 I  Simulator                        Simulator entered 'Standby' state
+  0.000000000   3.820 I  Main                             Evaluating script /opt/Sim-H2Sat/share/Svf/Cantata.py
+  0.000000000   3.832 I  SMU/Ttrm_1/TelemetryModule_1     Setting bit rate to 1024000 bps
+  0.000000000   3.833 I  SMU/Ttrm_1/TelemetryModule_1     Scheduling frame generation with cycle time 9992187 nanoseconds
+  0.000000000   3.833 I  SMU/Ttrm_1/TelemetryModule_1     TME Reset - power on
+  0.000000000   3.833 I  SMU/Ttrm_1/ReconfigurationModule_1/ReconfigurationModuleHalfA_1 Powering ON
+  0.000000000   3.833 I  SMU/Ttrm_1/ReconfigurationModule_1/ReconfigurationModuleHalfB_1 Powering ON
+  0.000000000   3.833 I  SMU/Ttrm_1/TtrmObtModule_1       OBT Pulse 1 started
+  0.000000000   3.833 I  SMU/Ttrm_1/TtrmObtModule_1       OBT Pulse 2 started
+  0.000000000   3.833 I  SMU/PowerConverter_1             Power state change.  Consumed power is 13.080000 watts
+  0.000000000   3.833 I  SMU/PowerConverter_1             Powering ON converter
+  0.000000000   3.833 I  SMU/Ttrm_2/TelemetryModule_2     Setting bit rate to 1024000 bps
+  0.000000000   3.833 I  SMU/Ttrm_2/TelemetryModule_2     TME Reset - power on
+  0.000000000   3.833 I  SMU/Ttrm_2/ReconfigurationModule_2/ReconfigurationModuleHalfA_2 Powering ON
+  0.000000000   3.833 I  SMU/Ttrm_2/ReconfigurationModule_2/ReconfigurationModuleHalfB_2 Powering ON
+  0.000000000   3.833 I  SMU/Ttrm_2/TtrmObtModule_2       OBT Pulse 1 started
+  0.000000000   3.833 I  SMU/Ttrm_2/TtrmObtModule_2       OBT Pulse 2 started
+  0.000000000   3.834 I  SMU/PowerConverter_2             Power state change.  Consumed power is 13.080000 watts
+  0.000000000   3.834 I  SMU/PowerConverter_2             Powering ON converter
+  0.000000000   3.834 I  SMU/ProcessorModule_1            Received HPC command to use PM-A
+  0.000000000   3.834 I  SMU/PowerConverter_1             Received HPC command to turn PM-A ON
+  0.000000000   3.835 I  SMU/ProcessorModule_1/SpaceWireA_1 Set PM USER_3 attributes
+  0.000000000   3.835 I  SMU/ProcessorModule_1/SpaceWireB_1 Set PM USER_3 attributes
+  0.000000000   3.835 I  SMU/ProcessorModule_1            Processor module is being powered ON
+  0.000000000   3.835 I  SMU/ProcessorModule_1            PM booting in ACTIVE mode
+  0.000000000   3.835 I  SMU/ProcessorModule_1            Cold Reset
+  0.000000000   3.835 I  SMU/ProcessorEmulator            Resetting processor
+  0.000000000   3.835 I  SMU/ProcessorEmulator            Reset : Kind = COLD, Code = 0
+  0.000000000   3.835 I  SMU/ProcessorEmulator            Resetting complete
+  0.000000000   3.835 W  SMU/Ttrm_1/ReconfigurationModule_1/ReconfigurationModuleHalfA_1 RaiseAlarm: PM-A UVD Alarm (11) HIGH
+  0.000000000   3.835 W  SMU/Ttrm_1/ReconfigurationModule_1/ReconfigurationModuleHalfB_1 RaiseAlarm: PM-A UVD Alarm (11) HIGH
+  0.000000000   3.835 W  SMU/Ttrm_2/ReconfigurationModule_2/ReconfigurationModuleHalfA_2 RaiseAlarm: PM-A UVD Alarm (11) HIGH
+  0.000000000   3.835 W  SMU/Ttrm_2/ReconfigurationModule_2/ReconfigurationModuleHalfB_2 RaiseAlarm: PM-A UVD Alarm (11) HIGH
+  0.000000000   3.835 I  SMU/ProcessorEmulator            LoadEmuImage -> /home/svf/atest_dummyFunctions.x
+  0.000000000   3.835 I  SMU/ProcessorEmulator            Loading /home/svf/atest_dummyFunctions.x
+  0.000000000   3.850 I  SMU/ProcessorEmulator            LoadEmuImage -> loaded '/home/svf/atest_dummyFunctions.x' into emulator
+  0.000000000   3.850 I  SMU/ProcessorEmulator            Set register ID 40 value 0x40000000 
+  0.000000000   3.851 I  Simulator                        Simulator entered 'Executing' state.
+  0.000100121   3.861 I  SMU/ProcessorEmulator            UART: lql@lql@lqlsl@lqlrlul@mamtmemsmtm_mdmummda
+  0.000100121   3.861 I  SMU/ProcessorEmulator            UART: mmmymFmumnmcmtmimomnmslomamtmemsmtm_mdmudR
+  0.000100121   3.861 I  SMU/ProcessorEmulator            UART: mmmmmymFmumnmcmtmimomnmslnmcl@lul@mdmummdl
+  0.000100121   3.861 I  SMU/ProcessorEmulator            UART: mmmymFmumnmcmtmimomnmsl@momhmblmmsmpmamrd]
+  0.000100121   3.861 I  SMU/ProcessorEmulator            UART: mclmmrmtmemmmslmltlxl@mTmimmmel`mnmomtl`dS
+  0.000100121   3.861 I  SMU/ProcessorEmulator            UART: mamvmamimlmambmlmel@lqltl@lql@lslvl@lql@dx
+  0.000100121   3.861 I  SMU/ProcessorEmulator            UART: lqlsl@lqlwlpl@mamtmemsmtm_mdmummmmmymFmudF
+  0.000100121   3.861 I  SMU/ProcessorEmulator            UART: mnmcmtmimomnmslomamtmemsmtm_mdmummmmmymFdJ
+  0.004100130   3.862 I  SMU/ProcessorEmulator            UART: mumnmcmtmimomnmslnmcl@lqlul@lqlrlxl@lsl@dW
+  0.004100130   3.862 I  SMU/ProcessorEmulator            UART: lxlrlylvl@lql@lul@lql@lqlxl@lpl@lqlul@lqd|
+  0.004100130   3.862 I  SMU/ProcessorEmulator            UART: lvl@lsl@lqlql@ltlvl@lrl@lpl@lqlul@lvltl@dC
+  0.004100130   3.862 I  SMU/ProcessorEmulator            UART: ltl@lrltlvltlwl@lqlzl`mamcmqmumimrmemDmudd
+  0.004100130   3.862 I  SMU/ProcessorEmulator            UART: mmmmmyl@lrl@lpl@lqlul@lqlvl@lsl@lxl@lqlrdq
+  0.004100130   3.862 I  SMU/ProcessorEmulator            UART: l@lrl@lpl@lqlul@lvltl@ltl@lrltlvltlwl@mddf
+  0.004100130   3.862 I  SMU/ProcessorEmulator            UART: memfmamumlmtl`mcmamsmel@lsl@lpl@lqlul@lqdM
+  0.004100130   3.862 I  SMU/ProcessorEmulator            UART: lvl@lsl@lsl@lqlql@lsl@lpl@lqlxl@lql@lqltdH
+  0.004100130   3.862 I  SMU/ProcessorEmulator            UART: l@lrl@lslvl@lrl@lqlsl@lqlwltl@mamtmemsmtdC
+  0.004100130   3.862 I  SMU/ProcessorEmulator            UART: m_mdmummmmmymFmumnmcmtmimomnmslomamtmemsdK
+  0.004100130   3.862 I  SMU/ProcessorEmulator            UART: mtm_mdmummmmmymFmumnmcmtmimomnmslnmcl@lqdo
+  0.004100130   3.862 I  SMU/ProcessorEmulator            UART: lul@lqlrlxl@lsl@lrlqlqlxlpl@lql@lul@lql@dr
+  0.004100130   3.863 I  SMU/ProcessorEmulator            UART: lqlul@lqlvl@lsl@lsl@lqlql@lrl@lpl@lqlul@dE
+  0.004100130   3.863 I  SMU/ProcessorEmulator            UART: lqlrlxl@lsl@lslwl@lwlvl@lrl@lpl@lqltl@lsdy
+  0.004100130   3.863 I  SMU/ProcessorEmulator            UART: l@lslvl@lsl@\r\t\`]C]A]N]T]P]P\`]D]E]F]Edj
+  0.004100130   3.863 I  SMU/ProcessorEmulator            UART: ]R]R]E]D\`]C]O]V\`]F]I]L]E\`\s\J]F\`\y\sdh
+  0.004100130   3.863 I  SMU/ProcessorEmulator            UART: \`]P\z\o]S]o]u]r]c]e\o]F]l]i]g]h]t]C]o]ndM
+  0.004100130   3.863 I  SMU/ProcessorEmulator            UART: ]f]i]g\o]E]x]e]c]u]t]i]o]n]P]l]a]t]f]o]rdF
+  0.004100130   3.863 I  SMU/ProcessorEmulator            UART: ]m]L]a]y]e]r\o]A]p]p]l]i]c]a]t]i]o]n]S]ud|
+  0.004100130   3.863 I  SMU/ProcessorEmulator            UART: ]p]p]o]r]t]S]e]r]v]i]c]e]s\o]D]e]v]i]c]edQ
+  0.004100130   3.863 I  SMU/ProcessorEmulator            UART: ]A]c]c]e]s]s]S]e]r]v]i]c]e\o\`\q\v\`]d]udA
+  0.008100151   3.863 I  SMU/ProcessorEmulator            UART: ]m]m]y]F]u]n]c]t]i]o]n]s\n]c\J\q\u\y\`]Tdf
+  0.008100151   3.863 I  SMU/ProcessorEmulator            UART: \z\o]U]T\o]F]l]i]g]h]t]C]o]n]f]i]g\o]E]xd{
+  0.008100151   3.863 I  SMU/ProcessorEmulator            UART: ]e]c]u]t]i]o]n]P]l]a]t]f]o]r]m]L]a]y]e]rdS
+  0.008100151   3.863 I  SMU/ProcessorEmulator            UART: \o]A]p]p]l]i]c]a]t]i]o]n]S]u]p]p]o]r]t]Sdh
+  0.008100151   3.863 I  SMU/ProcessorEmulator            UART: ]e]r]v]i]c]e]s\o]D]e]v]i]c]e]A]c]c]e]s]sdO
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: ]S]e]r]v]i]c]e\o]d]u]m]m]y]F]u]n]c]t]i]odW
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: ]n]s\o]C]a]n]t]a]t]a\o]t]e]s]t]s\o]a]t]edj
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: ]s]t]_]d]u]m]m]y]F]u]n]c]t]i]o]n]s\o]D]edn
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: ]v]i]c]e]A]c]c]e]s]s]S]e]r]v]i]c]e\o\`\qd_
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: \x\`]d]u]m]m]y]F]u]n]c]t]i]o]n]s\n]c]s]idw
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: \J\r\t\`]M]o]n\`]N]o]v\`\s\p\`\q\s\z\p\qdm
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: \z\r\v\`\r\p\r\p\J\u\`\v\q\`\p\`\u\`\p\`ds
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: \p\`\p\`\p\`\p\J\q\J]N\`\q\`\s\s\s\t\q\pdi
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: \u\u\q\t\`\v\q\`\p\`\q\`\p\`\p\`\p\`\p\Jdi
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: \p\J\q\J]C\p\`\q\J]n\q\J]C\q\u\`\q\z\`]adQ
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: ]c]q]u]i]r]e]D]u]m]m]y\r\J]t\r\J]f\q\J]ed]
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: \p\J]s\p\Jlqlul@lqlrlxl@lsl@lqlrlslylyl@d~
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: lql@lul@lql@lqlul@lqlrlxl@lsl@lul@lvl@lrdH
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: l@lpl@lqlul@lqlvl@lsl@lqlul@lulwl@lrl@lpdD
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: l@lqlul@lvltl@ltl@lrltlvltlwl@mrmemtmumrdd
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: mnmVmamlmumel`l}l`mEmrmrmomrm_mAmrmgmummdR
+  0.008100151   3.864 I  SMU/ProcessorEmulator            UART: memnmtl@lrl@lpl@lqlul@lqlvl@lsl@lsl@lqlqd?
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: l@lrl@lpl@lrlpl@lvl@lrl@lsl@lxl@lqlxlpl@dv
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: mamtmemsmtm_mdmummmmmymFmumnmcmtmimomnmsdQ
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: lomamtmemsmtm_mdmummmmmymFmumnmcmtmimomndL
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: mslnmcl@lxl@mrmemtmumrmnmVmamlmumel`l}l`d{
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: mEmrmrmomrm_mAmrmgmummmemnmtl@lqlsl@lqlxd?
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: lsl@mamtmemsmtm_mdmummmmmymFmumnmcmtmimod?
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: mnmslomamtmemsmtm_mdmummmmmymFmumnmcmtmidP
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: momnmslnmcl@lqlul@lqlrlxl@lsl@lrlrlrlpludD
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: l@lql@lul@lql@lqltl@lrl@lslwl@lqlul@lqlvdE
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: l@lsl@lsl@lqlql@lrl@lpl@lqlul@lqlrlxl@lsdN
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: l@lrlvl@lxlql@lrl@lpl@lqlul@lqlrlxl@lsl@dC
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: lrltl@lxlrl@ltl@lpl@lqlxl@lpl@lqlwl@lpl@dG
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: lqlxl@lql@lqlul@lqlvl@lsl@lsl@lqlql@ltl@dO
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: lpl@lqlul@lqlrlxl@lsl@lslrlxlwlsl@lql@ludE
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: l@lql@lslwl@lslwl@lqltl@lql@lslvl@lql@lqd@
+  0.012100151   3.865 I  SMU/ProcessorEmulator            UART: lul@lqlvl@lsl@lyl@ltlwl@lrl@lpl@lqlxl@lpd@
+  0.012100151   3.866 I  SMU/ProcessorEmulator            UART: l@lqlul@lvltl@ltl@lrltlvltlwl@lqlzl`mamcdh
+  0.012100151   3.866 I  SMU/ProcessorEmulator            UART: mqmumimrmemDmummmmmyl@lrl@lpl@lqlxl@lql@dH
+  0.012100151   3.866 I  SMU/ProcessorEmulator            UART: lqlul@lqlvl@lsl@lql@lqlrl@lrl@lpl@lqlsl@dB
+  0.012100151   3.866 I  SMU/ProcessorEmulator            UART: lrlpltl@mamtmemsmtm_mdmummmmmymFmumnmcmtd|
+  0.012100151   3.866 I  SMU/ProcessorEmulator            UART: mimomnmslomamtmemsmtm_mdmummmmmymFmumnmcdK
+  0.016100296   3.866 I  SMU/ProcessorEmulator            UART: mtmimomnmslnmcl@lqlul@lqlrlxl@lsl@lxlrlyd]
+  0.016100296   3.866 I  SMU/ProcessorEmulator            UART: lvl@lql@lul@lql@lqlxl@lpl@lqlul@lqlvl@lsdJ
+  0.016100296   3.866 I  SMU/ProcessorEmulator            UART: l@lqlql@ltlvl@lrl@lpl@lqlul@lvltl@ltl@lrd@
+  0.016100296   3.866 I  SMU/ProcessorEmulator            UART: ltlvltlwl@lrlzl`mcmommmmmamnmdmDmummmmmydF
+  0.016100296   3.866 I  SMU/ProcessorEmulator            UART: l@lrl@lpl@lqlul@lqlvl@lsl@lxl@lqlrl@lrl@d{
+  0.016100296   3.866 I  SMU/ProcessorEmulator            UART: lpl@lqlul@lvltl@ltl@lrltlvltlwl@mdmemfmadw
+  0.016100296   3.866 I  SMU/ProcessorEmulator            UART: mumlmtl`mcmamsmel@lsl@lpl@lqlul@lqlvl@lsdk
+  0.016100296   3.866 I  SMU/ProcessorEmulator            UART: l@lsl@lqlql@lsl@lpl@lqlxl@lql@lqltl@lrl@d?
+  0.016100296   3.866 I  SMU/ProcessorEmulator            UART: lslvl@lrl@lqlsl@lrlplxl@mamtmemsmtm_mdmudv
+  0.016100296   3.866 I  SMU/ProcessorEmulator            UART: mmmmmymFmumnmcmtmimomnmslomamtmemsmtm_mddJ
+  0.016100296   3.866 I  SMU/ProcessorEmulator            UART: mummmmmymFmumnmcmtmimomnmslnmcl@lqlul@lqde
+  0.016100296   3.866 I  SMU/ProcessorEmulator            UART: lrlxl@lsl@lrlqlqlxlpl@lql@lul@lql@lqlul@dr
+  0.016100296   3.867 I  SMU/ProcessorEmulator            UART: lqlvl@lsl@lsl@lqlql@lrl@lpl@lqlul@lqlrlxdz
+  0.016100296   3.867 I  SMU/ProcessorEmulator            UART: l@lsl@lslwl@lwlvl@lrl@lpl@lqltl@lsl@lslvdG
+  0.016100296   3.867 I  SMU/ProcessorEmulator            UART: l@lsl@]N\`\q\`\s\q\t\u\r\q\y\r\p\`\v\q\`dA
+  0.016100296   3.867 I  SMU/ProcessorEmulator            UART: \p\`\q\`\p\`\p\`\p\`\p\J\p\J\r\J]C\q\u\`dO
+  0.016100296   3.867 I  SMU/ProcessorEmulator            UART: \r\z\`]c]o]m]m]a]n]d]D]u]m]m]y\s\J]t\s\Jdr
+  0.016100296   3.867 I  SMU/ProcessorEmulator            UART: ]f\r\J]e\p\J]s\p\Jlqlul@lqlrlxl@lsl@lqlrdv
+  0.016100296   3.867 I  SMU/ProcessorEmulator            UART: lslylyl@lql@lul@lql@lqlul@lqlrlxl@lsl@lud?
+  0.016100296   3.867 I  SMU/ProcessorEmulator            UART: l@lvl@lrl@lpl@lqlul@lqlvl@lsl@lqlul@lulwdB
+  0.020100303   3.867 I  SMU/ProcessorEmulator            UART: l@lrl@lpl@lqlul@lvltl@ltl@lrltlvltlwl@mrdp
+  0.020100303   3.867 I  SMU/ProcessorEmulator            UART: memtmumrmnmVmamlmumel`l}l`mEmrmrmomrm_mAdI
+  0.020100303   3.867 I  SMU/ProcessorEmulator            UART: mrmgmummmemnmtl@lrl@lpl@lqlul@lqlvl@lsl@dA
+  0.020100303   3.867 I  SMU/ProcessorEmulator            UART: lsl@lqlql@lrl@lpl@lrlpl@lvl@lrl@lsl@lxl@d|
+  0.020100303   3.867 I  SMU/ProcessorEmulator            UART: lrlqltl@mamtmemsmtm_mdmummmmmymFmumnmcmtd}
+  0.020100303   3.867 I  SMU/ProcessorEmulator            UART: mimomnmslomamtmemsmtm_mdmummmmmymFmumnmcdK
+  0.020100303   3.867 I  SMU/ProcessorEmulator            UART: mtmimomnmslnmcl@lxl@mrmemtmumrmnmVmamlmud~
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: mel`l}l`mEmrmrmomrm_mAmrmgmummmemnmtl@lqd\
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: lsl@lrlqlwl@mamtmemsmtm_mdmummmmmymFmumndZ
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: mcmtmimomnmslomamtmemsmtm_mdmummmmmymFmudQ
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: mnmcmtmimomnmslnmcl@lqlul@lqlrlxl@lsl@lrdQ
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: lrlrlplul@lql@lul@lql@lqltl@lrl@lslwl@lqdr
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: lul@lqlvl@lsl@lsl@lqlql@lrl@lpl@lqlul@lqdE
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: lrlxl@lsl@lrlvl@lxlql@lrl@lpl@lqlul@lqlrdq
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: lxl@lsl@lrltl@lxlrl@ltl@lpl@lqlxl@lpl@lqdK
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: lwl@lpl@lqlxl@lql@lqlul@lqlvl@lsl@lsl@lqdM
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: lql@ltl@lpl@lqlul@lqlrlxl@lsl@lslrlxlwlsdD
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: l@lql@lul@lql@lslwl@lslwl@lqltl@lql@lslvdD
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: l@lql@lqlul@lqlvl@lsl@lyl@ltlwl@lrl@lpl@dy
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: lqlxl@lpl@lqlul@lvltl@ltl@lrltlvltlwl@lrdJ
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: lzl`mcmommmmmamnmdmDmummmmmyl@lrl@lpl@lqdF
+  0.020100303   3.868 I  SMU/ProcessorEmulator            UART: lxl@lql@lqlul@lqlvl@lsl@lql@lqlrl@lrl@lpdI
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: l@lqlsl@lrlslul@mamtmemsmtm_mdmummmmmymFdp
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: mumnmcmtmimomnmslomamtmemsmtm_mdmummmmmydy
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: mFmumnmcmtmimomnmslnmcl@lqlul@lqlrlxl@lsdP
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: l@lxlrlylvl@lql@lul@lql@lqlxl@lpl@lqlul@dM
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: lqlvl@lsl@lqlql@ltlvl@lrl@lpl@lqlul@lvltdr
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: l@ltl@lrltlvltlwl@lslzl`mgmemtmDmamtmamDdl
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: mummmmmyl@lrl@lpl@lqlul@lqlvl@lsl@lxl@lqdw
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: lrl@lrl@lpl@lqlul@lvltl@ltl@lrltlvltlwl@dq
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: mdmemfmamumlmtl`mcmamsmel@lsl@lpl@lqlul@dY
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: lqlvl@lsl@lsl@lqlql@lsl@lpl@lqlxl@lql@lqdM
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: ltl@lrl@lslvl@lrl@lqlsl@lrlslyl@mamtmemsdH
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: mtm_mdmummmmmymFmumnmcmtmimomnmslomamtmedL
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: msmtm_mdmummmmmymFmumnmcmtmimomnmslnmcl@dl
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: lqlul@lqlrlxl@lsl@lrlqlqlxlpl@lql@lul@lqdC
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: l@lqlul@lqlvl@lsl@lsl@lqlql@lrl@lpl@lqludE
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: l@lqlrlxl@lsl@lslwl@lwlvl@lrl@lpl@lqltl@dJ
+  0.024100303   3.869 I  SMU/ProcessorEmulator            UART: lsl@lslvl@lsl@]N\`\q\`\q\v\s\w\t\t\r\w\tdy
+  0.024100303   3.870 I  SMU/ProcessorEmulator            UART: \s\`\v\q\`\p\`\q\`\p\`\p\`\p\`\p\J\p\J\sdV
+  0.024100303   3.870 I  SMU/ProcessorEmulator            UART: \J]C\q\u\`\s\z\`]g]e]t]D]a]t]a]D]u]m]m]ydK
+  0.024100303   3.870 I  SMU/ProcessorEmulator            UART: \t\J]t\t\J]f\s\J]e\p\J]s\p\Jlqlul@lqlrlxdB
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: l@lsl@lqlrlslylyl@lql@lul@lql@lqlul@lqlrdq
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: lxl@lsl@lul@lvl@lrl@lpl@lqlul@lqlvl@lsl@dz
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: lqlul@lulwl@lrl@lpl@lqlul@lvltl@ltl@lrltdp
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: lvltlwl@mrmemtmumrmnmVmamlmumel`l}l`mEmrd?
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: mrmomrm_mAmrmgmummmemnmtl@lrl@lpl@lqlul@dE
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: lqlvl@lsl@lsl@lqlql@lrl@lpl@lrlpl@lvl@lrdC
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: l@lsl@lxl@lrltlul@mamtmemsmtm_mdmummmmmydy
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: mFmumnmcmtmimomnmslomamtmemsmtm_mdmummmmdF
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: mymFmumnmcmtmimomnmslnmcl@lxl@mrmemtmumrdy
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: mnmVmamlmumel`l}l`mEmrmrmomrm_mAmrmgmummdR
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: memnmtl@lqlsl@lrltlxl@mamtmemsmtm_mdmummdW
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: mmmymFmumnmcmtmimomnmslomamtmemsmtm_mdmudR
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: mmmmmymFmumnmcmtmimomnmslnmcl@lqlul@lqlrdc
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: lxl@lsl@lrlrlrlplul@lql@lul@lql@lqltl@lrd~
+  0.028100376   3.870 I  SMU/ProcessorEmulator            UART: l@lslwl@lqlul@lqlvl@lsl@lsl@lqlql@lrl@lpdE
+  0.028100376   3.871 I  SMU/ProcessorEmulator            UART: l@lqlul@lqlrlxl@lsl@lrlvl@lxlql@lrl@lpl@dC
+  0.028100376   3.871 I  SMU/ProcessorEmulator            UART: lqlul@lqlrlxl@lsl@lrltl@lxlrl@ltl@lpl@lqdu
+  0.028100376   3.871 I  SMU/ProcessorEmulator            UART: lxl@lpl@lqlwl@lpl@lqlxl@lql@lqlul@lqlvl@dE
+  0.028100376   3.871 I  SMU/ProcessorEmulator            UART: lsl@lsl@lqlql@ltl@lpl@lqlul@lqlrlxl@lsl@dH
+  0.028100376   3.871 I  SMU/ProcessorEmulator            UART: lslrlxlwlsl@lql@lul@lql@lslwl@lslwl@lqltdM
+  0.028100376   3.871 I  SMU/ProcessorEmulator            UART: l@lql@lslvl@lql@lqlul@lqlvl@lsl@lyl@ltlwdO
+  0.032100377   3.871 I  SMU/ProcessorEmulator            UART: l@lrl@lpl@lqlxl@lpl@lqlul@lvltl@ltl@lrltdO
+  0.032100377   3.871 I  SMU/ProcessorEmulator            UART: lvltlwl@lslzl`mgmemtmDmamtmamDmummmmmyl@dR
+  0.032100377   3.871 I  SMU/ProcessorEmulator            UART: lrl@lpl@lqlxl@lql@lqlul@lqlvl@lsl@lql@lqdJ
+  0.032100377   3.871 I  SMU/ProcessorEmulator            UART: lrl@lrl@lpl@lqlsl@lrlvltl@mamtmemsmtm_mddO
+  0.032100377   3.871 I  SMU/ProcessorEmulator            UART: mummmmmymFmumnmcmtmimomnmslomamtmemsmtm_d[
+  0.032100377   3.871 I  SMU/ProcessorEmulator            UART: mdmummmmmymFmumnmcmtmimomnmslnmcl@lqlul@dq
+  0.032100377   3.871 I  SMU/ProcessorEmulator            UART: lqlrlxl@lsl@lxlrlylvl@lql@lul@lql@lqlxl@dq
+  0.032100377   3.871 I  SMU/ProcessorEmulator            UART: lpl@lqlul@lqlvl@lsl@lqlql@ltlvl@lrl@lpl@d@
+  0.032100377   3.871 I  SMU/ProcessorEmulator            UART: lqlul@lvltl@ltl@lrltlvltlwl@ltlzl`mgmemtdX
+  0.032100377   3.871 I  SMU/ProcessorEmulator            UART: mDmamtmamSmimzmemDmummmmmyl@lrl@lpl@lqludZ
+  0.032100377   3.871 I  SMU/ProcessorEmulator            UART: l@lqlvl@lsl@lxl@lqlrl@lrl@lpl@lqlul@lvltdK
+  0.032100377   3.872 I  SMU/ProcessorEmulator            UART: l@ltl@lrltlvltlwl@mdmemfmamumlmtl`mcmamsd}
+  0.032100377   3.872 I  SMU/ProcessorEmulator            UART: mel@lsl@lpl@lqlul@lqlvl@lsl@lsl@lqlql@lsdW
+  0.032100377   3.872 I  SMU/ProcessorEmulator            UART: l@lpl@lqlxl@lql@lqltl@lrl@lslvl@lrl@lqlsdJ
+  0.032100377   3.872 I  SMU/ProcessorEmulator            UART: l@lrlvlxl@mamtmemsmtm_mdmummmmmymFmumnmcdC
+  0.032100377   3.872 I  SMU/ProcessorEmulator            UART: mtmimomnmslomamtmemsmtm_mdmummmmmymFmumnd\
+  0.032100377   3.872 I  SMU/ProcessorEmulator            UART: mcmtmimomnmslnmcl@lqlul@lqlrlxl@lsl@lrlqdO
+  0.032100377   3.872 I  SMU/ProcessorEmulator            UART: lqlxlpl@lql@lul@lql@lqlul@lqlvl@lsl@lsl@dO
+  0.032100377   3.872 I  SMU/ProcessorEmulator            UART: lqlql@lrl@lpl@lqlul@lqlrlxl@lsl@lslwl@lwd}
+  0.032100377   3.872 I  SMU/ProcessorEmulator            UART: lvl@lrl@lpl@lqltl@lsl@lslvl@lsl@]N\`\q\`dJ
+  0.032100377   3.872 I  SMU/ProcessorEmulator            UART: \s\t\r\s\s\x\u\u\t\w\`\v\q\`\p\`\q\`\p\`dX
+  0.036100446   3.872 I  SMU/ProcessorEmulator            UART: \p\`\p\`\p\J\p\J\t\J]C\q\y\`\t\z\`]g]e]tdM
+  0.036100446   3.872 I  SMU/ProcessorEmulator            UART: ]D]a]t]a]S]i]z]e]D]u]m]m]y\u\J]t\u\J]f\tdz
+  0.036100446   3.872 I  SMU/ProcessorEmulator            UART: \J]e\p\J]s\p\Jlqlul@lqlrlxl@lsl@lqlrltlpdg
+  0.036100446   3.872 I  SMU/ProcessorEmulator            UART: lrl@lql@lul@lql@lqlul@lqlrlxl@lsl@lul@lvdH
+  0.036100446   3.872 I  SMU/ProcessorEmulator            UART: l@lrl@lpl@lqlul@lqlvl@lsl@lqlul@lulwl@lrdF
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: l@lpl@lqlul@lvltl@ltl@lrltlvltlwl@mrmemtdS
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: mumrmnmVmamlmumel`l}l`lpmUl@lrl@lpl@lqlud}
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: l@lqlvl@lsl@lsl@lqlql@lrl@lpl@lrlpl@lwl@dp
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: lpl@lsl@lxl@lrlwltl@mamtmemsmtm_mdmummmmds
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: mymFmumnmcmtmimomnmslomamtmemsmtm_mdmummdR
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: mmmymFmumnmcmtmimomnmslnmcl@lxl@mrmemtmudf
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: mrmnmVmamlmumel`l}l`lpmUl@lqlsl@lrlwlwl@d?
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: mamtmemsmtm_mdmummmmmymFmumnmcmtmimomnmsdQ
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: lomamtmemsmtm_mdmummmmmymFmumnmcmtmimomndL
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: mslnmcl@lqlul@lqlrlxl@lsl@lrlrlrlplul@lqdt
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: l@lul@lql@lqltl@lrl@lslwl@lqlul@lqlvl@lsdG
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: l@lsl@lqlql@lrl@lpl@lqlul@lqlrlxl@lsl@lrdO
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: lvl@lxlql@lrl@lpl@lqlul@lqlrlxl@lsl@lrltdw
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: l@lxlrl@ltl@lpl@lqlxl@lpl@lqlwl@lpl@lqlxdH
+  0.036100446   3.873 I  SMU/ProcessorEmulator            UART: l@lql@lqlul@lqlvl@lsl@lsl@lqlql@ltl@lpl@dv
+  0.040100515   3.873 I  SMU/ProcessorEmulator            UART: lqlul@lqlrlxl@lsl@lslrlxlwlsl@lql@lul@lqdD
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: l@lslwl@lslwl@lqltl@lql@lslvl@lql@lqlul@dD
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: lqlvl@lsl@lyl@ltlwl@lrl@lpl@lqlxl@lpl@lqdD
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: lul@lvltl@ltl@lrltlvltlwl@ltlzl`mgmemtmDdl
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: mamtmamSmimzmemDmummmmmyl@lrl@lpl@lqlxl@dR
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: lql@lqlul@lqlvl@lsl@lql@lqlrl@lrl@lpl@lqd@
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: lsl@lrlylul@mamtmemsmtm_mdmummmmmymFmumndP
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: mcmtmimomnmslomamtmemsmtm_mdmummmmmymFmudQ
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: mnmcmtmimomnmslnmcl@lqlul@lqlrlxl@lsl@lxd[
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: lrlylvl@lql@lul@lql@lqlxl@lpl@lqlul@lqlvdr
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: l@lsl@lqlql@ltlvl@lrl@lpl@lqlul@lvltl@ltdA
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: l@lrltlvltlwl@lulzl`msmemtmDmamtmamDmummdR
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: mmmyl@lrl@lpl@lqlul@lqlvl@lsl@lxl@lqlrl@d]
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: lrl@lpl@lqlul@lvltl@ltl@lrltlvltlwl@mdmedB
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: mfmamumlmtl`mcmamsmel@lsl@lpl@lqlul@lqlvd_
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: l@lsl@lsl@lqlql@lsl@lpl@lqlxl@lql@lqltl@d~
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: lrl@lslvl@lrl@lqlsl@lrlylyl@mamtmemsmtm_d]
+  0.040100515   3.874 I  SMU/ProcessorEmulator            UART: mdmummmmmymFmumnmcmtmimomnmslomamtmemsmtd`
+  0.040100515   3.875 I  SMU/ProcessorEmulator            UART: m_mdmummmmmymFmumnmcmtmimomnmslnmcl@lqludo
+  0.040100515   3.875 I  SMU/ProcessorEmulator            UART: l@lqlrlxl@lsl@lrlqlqlxlpl@lql@lul@lql@lqdv
+  0.040100515   3.875 I  SMU/ProcessorEmulator            UART: lul@lqlvl@lsl@lsl@lqlql@lrl@lpl@lqlul@lqdE
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: lrlxl@lsl@lslwl@lwlvl@lrl@lpl@lqltl@lsl@dH
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: lslvl@lsl@]N\`\q\`\r\v\u\p\u\t\r\u\t\t\`d_
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: \v\q\`\p\`\q\`\p\`\p\`\p\`\p\J\p\J\u\J]CdK
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: \q\u\`\u\z\`]s]e]t]D]a]t]a]D]u]m]m]y\v\Jdm
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: ]t\v\J]f\u\J]e\p\J]s\p\Jlqlul@lqlrlxl@lsdK
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: l@lqlrlslylyl@lql@lul@lql@lqlul@lqlrlxl@dz
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: lsl@lul@lvl@lrl@lpl@lqlul@lqlvl@lsl@lqludF
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: l@lulwl@lrl@lpl@lqlul@lvltl@ltl@lrltlvltdv
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: lwl@mrmemtmumrmnmVmamlmumel`l}l`mEmrmrmod`
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: mrm_mAmrmgmummmemnmtl@lrl@lpl@lqlul@lqlvd_
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: l@lsl@lsl@lqlql@lrl@lpl@lrlpl@lvl@lrl@lsdw
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: l@lxl@lslplul@mamtmemsmtm_mdmummmmmymFmud|
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: mnmcmtmimomnmslomamtmemsmtm_mdmummmmmymFdJ
+  0.044100532   3.875 I  SMU/ProcessorEmulator            UART: mumnmcmtmimomnmslnmcl@lxl@mrmemtmumrmnmVd~
+  0.044100532   3.876 I  SMU/ProcessorEmulator            UART: mamlmumel`l}l`mEmrmrmomrm_mAmrmgmummmemnda
+  0.044100532   3.876 I  SMU/ProcessorEmulator            UART: mtl@lqlsl@lslplxl@mamtmemsmtm_mdmummmmmydM
+  0.044100532   3.876 I  SMU/ProcessorEmulator            UART: mFmumnmcmtmimomnmslomamtmemsmtm_mdmummmmdF
+  0.044100532   3.876 I  SMU/ProcessorEmulator            UART: mymFmumnmcmtmimomnmslnmcl@lqlul@lqlrlxl@d[
+  0.044100532   3.876 I  SMU/ProcessorEmulator            UART: lsl@lrlrlrlplul@lql@lul@lql@lqltl@lrl@lsdu
+  0.044100532   3.876 I  SMU/ProcessorEmulator            UART: lwl@lqlul@lqlvl@lsl@lsl@lqlql@lrl@lpl@lqdG
+  0.044100532   3.876 I  SMU/ProcessorEmulator            UART: lul@lqlrlxl@lsl@lrlvl@lxlql@lrl@lpl@lqludv
+  0.048101014   3.876 I  SMU/ProcessorEmulator            UART: l@lqlrlxl@lsl@lrltl@lxlrl@ltl@lpl@lqlxl@dI
+  0.048101014   3.876 I  SMU/ProcessorEmulator            UART: lpl@lqlwl@lpl@lqlxl@lql@lqlul@lqlvl@lsl@dN
+  0.048101014   3.876 I  SMU/ProcessorEmulator            UART: lsl@lqlql@ltl@lpl@lqlul@lqlrlxl@lsl@lslrdz
+  0.048101014   3.876 I  SMU/ProcessorEmulator            UART: lxlwlsl@lql@lul@lql@lslwl@lslwl@lqltl@lqd}
+  0.048101014   3.876 I  SMU/ProcessorEmulator            UART: l@lslvl@lql@lqlul@lqlvl@lsl@lyl@ltlwl@lrdL
+  0.048101014   3.876 I  SMU/ProcessorEmulator            UART: l@lpl@lqlxl@lpl@lqlul@lvltl@ltl@lrltlvltd?
+  0.048101014   3.876 I  SMU/ProcessorEmulator            UART: lwl@lulzl`msmemtmDmamtmamDmummmmmyl@lrl@dp
+  0.048101014   3.876 I  SMU/ProcessorEmulator            UART: lpl@lqlxl@lql@lqlul@lqlvl@lsl@lql@lqlrl@dJ
+  0.048101014   3.876 I  SMU/ProcessorEmulator            UART: lrl@lpl@lqlsl@lwlul@mamtmemsmtm_mdmummmmd{
+  0.048101014   3.876 I  SMU/ProcessorEmulator            UART: mymFmumnmcmtmimomnmslomamtmemsmtm_mdmummdR
+  0.048101014   3.877 I  SMU/ProcessorEmulator            UART: mmmymFmumnmcmtmimomnmslnmcl@lqlul@lqlrlxdw
+  0.048101014   3.877 I  SMU/ProcessorEmulator            UART: l@lsl@lxlrlylvl@lql@lul@lql@lqlxl@lpl@lqdK
+  0.048101014   3.877 I  SMU/ProcessorEmulator            UART: lul@lqlvl@lsl@lqlql@ltlvl@lrl@lpl@lqlul@dE
+  0.048101014   3.877 I  SMU/ProcessorEmulator            UART: lvltl@ltl@lrltlvltlwl@mCmOmVmEmRmAmGmEl`dk
+  0.048101014   3.877 I  SMU/ProcessorEmulator            UART: mRmUmLmEl`mSmEmTl@lrl@lpl@lqlul@lqlvl@lsd_
+  0.048101014   3.877 I  SMU/ProcessorEmulator            UART: l@lxl@lqlrl@lrl@lpl@lqlul@lvltl@ltl@lrltdM
+  0.048101014   3.877 I  SMU/ProcessorEmulator            UART: lvltlwl@mDmOlmlqlwlxmBlomCl`mLmemvmemll`dT
+  0.048101014   3.877 I  SMU/ProcessorEmulator            UART: mBl@lsl@lpl@lqlul@lqlvl@lsl@lsl@lqlql@lsdp
+  0.048101014   3.877 I  SMU/ProcessorEmulator            UART: l@lpl@lqlxl@lql@lqltl@lrl@lslvl@lrl@lqlsdJ
+  0.048101014   3.877 I  SMU/ProcessorEmulator            UART: l@lwlxl@mamtmemsmtm_mdmummmmmymFmumnmcmtdE
+  0.052101034   3.877 I  SMU/ProcessorEmulator            UART: mimomnmslomamtmemsmtm_mdmummmmmymFmumnmcdK
+  0.052101034   3.877 I  SMU/ProcessorEmulator            UART: mtmimomnmslnmcl@lqlul@lqlrlxl@lsl@lrlxlxd\
+  0.052101034   3.877 I  SMU/ProcessorEmulator            UART: lxlvl@lql@lul@lql@lqlul@lqlvl@lsl@lylwl@dE
+  0.052101034   3.877 I  SMU/ProcessorEmulator            UART: lsl@lql@lql@lqlul@lvltl@ltl@lrltlvltlwl@dr
+  0.052101034   3.877 I  SMU/ProcessorEmulator            UART: mCmomvmemrmamgmel`mRmumlmel`mSmemtl`mimgdm
+  0.052101034   3.877 I  SMU/ProcessorEmulator            UART: mnmomrmemdl`mimnl`mdmemfmemrmrmemdl`mamndX
+  0.052101034   3.877 I  SMU/ProcessorEmulator            UART: mamlmymsmimsl`mmmomdmelJl@lql@lql@lqlul@dp
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: lqlvl@lsl@lsl@lqlql@lql@lql@lqlul@lqlrlxdx
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: l@lsl@lslrlxlwlsl@lql@lul@lql@lslwl@lslwd{
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: l@lqltl@lql@lslvl@lql@lqlul@lqlvl@lsl@lydI
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: l@ltlwl@lrl@lpl@lqlxl@lpl@lqlul@lvltl@ltdJ
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: l@lrltlvltlwl@mCmOmVmEmRmAmGmEl`mRmUmLmEdS
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: l`mSmEmTl@lrl@lpl@lqlxl@lql@lqlul@lqlvl@dZ
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: lsl@lql@lqlrl@lrl@lpl@lqltl@lpl@lvl@lrltdF
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: l@lqlzl`mamcmqmumimrmemDmummmmmyl@lql@lpdZ
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: l@lpl@lpl@lpl@lql@lvl@lrltl@lrlzl`mcmommdy
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: mmmamnmdmDmummmmmyl@lql@lpl@lpl@lpl@lpl@d~
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: lql@lvl@lrltl@lslzl`mgmemtmDmamtmamDmummdr
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: mmmyl@lql@lpl@lpl@lpl@lpl@lql@lvl@lrltl@dd
+  0.052101034   3.878 I  SMU/ProcessorEmulator            UART: ltlzl`mgmemtmDmamtmamSmimzmemDmummmmmyl@dE
+  0.052101034   3.879 I  SMU/ProcessorEmulator            UART: lql@lpl@lpl@lpl@lpl@lql@lvl@lrltl@lulzl`d_
+  0.052101034   3.879 I  SMU/ProcessorEmulator            UART: msmemtmDmamtmamDmummmmmyl@lql@lpl@lpl@lpd[
+  0.056101097   3.879 I  SMU/ProcessorEmulator            UART: l@lpl@lql@lvl@lrltl@mCmOmVmEmRmAmGmEl`mRdL
+  0.056101097   3.879 I  SMU/ProcessorEmulator            UART: mUmLmEl`mSmEmTl@lpl@lpl@lql@lpl@lpl@lql@d~
+  0.056101097   3.879 I  SMU/ProcessorEmulator            UART: lwl@lrltl@mOmtmhmemrl@lpl@lpl@lpl@lpl@lpdD
+  0.056101097   3.879 I  SMU/ProcessorEmulator            UART: l@lql@ltltl@lul@lpl@lql@lpl@lpl@lql@mTmidI
+  0.056101097   3.879 I  SMU/ProcessorEmulator            UART: mmmel`mnmomtl`mamvmamimlmambmlmel@lpl@
+ 3600.000000016   4.451 I  Simulator                        Simulator entered 'Standby' state.
+ 3600.000000016   4.451 I  Main                             Main script finished, exiting simulation
+ 3600.000000016   4.451 I  Simulator                        Simulator entered 'Exiting' state
+ 3600.000000016   4.479 I  Main                             Simulation ended

@@ -1,0 +1,48 @@
+24 CANTPP DEFERRED COV FILE 3
+F 93 P:/Source/FlightConfig/ExecutionPlatformLayer/ApplicationSupportServices/DeviceAccessService/ 16 dummyFunctions.c
+159 T:/UT/FlightConfig/ExecutionPlatformLayer/ApplicationSupportServices/DeviceAccessService/dummyFunctions/Cantata/tests/atest_dummyFunctions/DeviceAccessService/ 18 dummyFunctions.csi
+24 Mon Nov 30 13:01:26 2020
+5 61 0 5 0 0 0 0 0
+1
+N 1 3334105514 61 0 1 0 0 0 0
+0
+1
+C0 1
+n1
+C15 1: acquireDummy2
+t2
+f1
+e0
+s0
+N 1 314521920 61 0 1 0 0 0 0
+0
+2
+C15 2: commandDummy3
+t3
+f2
+e0
+s0
+N 1 1637442743 61 0 1 0 0 0 0
+0
+3
+C15 3: getDataDummy4
+t4
+f3
+e0
+s0
+N 1 3423385547 61 0 1 0 0 0 0
+0
+4
+C19 4: getDataSizeDummy5
+t5
+f4
+e0
+s0
+N 1 2650542544 61 0 1 0 0 0 0
+0
+5
+C15 5: setDataDummy6
+t6
+f5
+e0
+s0

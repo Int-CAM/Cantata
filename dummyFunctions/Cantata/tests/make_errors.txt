@@ -1,0 +1,4 @@
+make[1]: *** [build_all] Error 2
+make[1]: Target `do_all' not remade because of errors.
+ions/make_test] Error 2
+make[2]: Target `all' not remade because of errors.

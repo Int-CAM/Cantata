@@ -1,0 +1,3 @@
+Cantata Version,UserName,NumberofTests,Executable,Compile,Link,Run,Passed,Failed
+,,1,atest_dummyFunctions,1,0,0,0,0
+,,1,atest_dummyFunctions,0,0,1,0,1

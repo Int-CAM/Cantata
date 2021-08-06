@@ -1,0 +1,8 @@
+Compiling (C) ... P:/Source/FlightConfig/ExecutionPlatformLayer/ApplicationSupportServices/DeviceAccessService/dummyFunctions.c -> atest_dummyFunctions/DeviceAccessService/dummyFunctions.o
+Cantata CPPCCD v9.1 (c) 2020 QA Systems GmbH
+Section: ohb-sparc-rtems-48
+ - registered as an AUTHORISED PLATFORM
+Fatal Error CCD0310: Sentinel RMS LSRequest [CANTATAPP_General feature]:
+Error[3]: Failed to resolve the server host "cantata-license.cloud.i13a.net".
+
+make[4]: *** [atest_dummyFunctions/DeviceAccessService/dummyFunctions.o] Error 2

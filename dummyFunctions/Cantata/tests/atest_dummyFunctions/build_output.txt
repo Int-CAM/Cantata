@@ -1,0 +1,8 @@
+Cantata CPPCONV v9.1 (c) 2020 QA Systems GmbH
+Convert "atest_dummyFunctions/atest_dummyFunctions_output.txt" -> "atest_dummyFunctions"
+Convert "atest_dummyFunctions/atest_dummyFunctions_output.txt"
+Successfully decoded 285 lines (286 text lines) of input data
+Coverage File saved as atest_dummyFunctions/atest_dummyFunctions.def
+Coverage successfully converted and saved as "atest_dummyFunctions/atest_dummyFunctions.cov"
+Results File saved as atest_dummyFunctions/atest_dummyFunctions.ctr
+CTG results File saved as atest_dummyFunctions/atest_dummyFunctions.ctg

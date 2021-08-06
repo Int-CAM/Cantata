@@ -1,0 +1,15 @@
+===========================================================================
+= Cantata AutoTest Generation Report                                      =
+= (c) 2019 QA Systems GmbH                                                =
+=-------------------------------------------------------------------------=
+= Generation Date: 14.05.2021 11:08                                       =
+===========================================================================
+5 functions fully tested.
+Files fully tested:
+- dummyFunctions.c (1,4 seconds)
+
+Files not fully tested:
+  - NONE
+
+Files not tested:
+  - NONE
