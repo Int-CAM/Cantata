@@ -6,6 +6,7 @@ pipeline {
         stage('Initial Message') {
           steps {
             echo 'Starting the build phase'
+            sh 'sudo cd ~/Desktop; git clone https://github.com/Int-CAM/Cantata; cd Cantata;'
           }
         }
 
