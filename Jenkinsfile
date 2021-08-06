@@ -1,11 +1,26 @@
 pipeline {
   agent any
   stages {
-    stage('Build and Collect') {
+    stage('Build') {
       steps {
-        echo 'Cantata Pipeline Started'
-        cantataRunTest(appendToTopLevelLog: true, execute: true, outputToConsole: true, cantataExecDir: 'dummyFunctions/Cantata/tests')
-        archiveArtifacts(allowEmptyArchive: true, artifacts: 'dummyFunctions/Cantata/results/*.html')
+        cantataRunTest(cantataExecDir: 'dummyFunctions/Cantata/tests', execute: true, outputToConsole: true)
+      }
+    }
+
+    stage('Reports') {
+      parallel {
+        stage('Reports') {
+          steps {
+            archiveArtifacts(artifacts: 'dummyFunctions/Cantata/results/*.html', allowEmptyArchive: true)
+          }
+        }
+
+        stage('Finished Message') {
+          steps {
+            echo 'Report Completed'
+          }
+        }
+
       }
     }
 
